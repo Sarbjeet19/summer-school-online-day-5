@@ -1,4 +1,4 @@
-const API_KEY = 'd139c45b985393725e8648b22d8ca046'; 
+const API_KEY = ''; //No API for security reasons
 
 document.getElementById('getWeather').addEventListener('click', () => {
   const weatherInfo = document.getElementById('weatherInfo');
