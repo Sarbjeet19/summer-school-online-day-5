@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Retro Weather",
+  "version": "1.0",
+  "description": "A retro-style Chrome Extension showing real-time weather using your location.",
+  "permissions": ["geolocation"],
+  "host_permissions": [
+    "https://api.openweathermap.org/"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    }
+  }
+}

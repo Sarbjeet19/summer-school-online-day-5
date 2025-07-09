@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Retro Weather</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1> Weather 🌤️</h1>
+    <button id="getWeather">Get Weather</button>
+    <div id="loading">⌛ Loading...</div>
+    
+    <div id="weatherInfo" class="hidden typing-box">
+      <p><strong>Location:</strong> <span id="city"></span></p>
+      <p><strong>Temperature:</strong> <span id="tempC"></span> °C / <span id="tempF"></span> °F</p>
+      <p><strong>Condition:</strong> <span id="condition"></span></p>
+      <img id="icon" src="" alt="weather icon" />
+    </div>
+
+    <p id="error" class="error"></p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
